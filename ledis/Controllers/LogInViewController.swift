@@ -30,6 +30,10 @@ class LogInViewController: UIViewController {
         LogInTxtField.leftView = paddingView
         LogInTxtField.leftViewMode = UITextFieldViewMode.always
         
-        
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 15, height: self.PasswordTxtField.frame.height))
+        PasswordTxtField.leftView = paddingView
+        PasswordTxtField.leftViewMode = UITextFieldViewMode.always
+
+    
     }
 }
