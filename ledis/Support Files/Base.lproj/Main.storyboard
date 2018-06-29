@@ -60,9 +60,6 @@
                                         <integer key="value" value="21"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="PlayAsGuestBtn:" destination="IZl-fr-C9c" eventType="touchUpInside" id="tqQ-J9-G9f"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="kfw-bO-OBt">
                                 <rect key="frame" x="97" y="95" width="180" height="116"/>
@@ -74,7 +71,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="GvE-3R-VE5"/>
                     <connections>
-                        <outlet property="PlayAsGuestBtn" destination="Tki-MH-MQd" id="gI4-0k-T5P"/>
+                        <outlet property="playAsGuestButton" destination="Tki-MH-MQd" id="GSo-7t-Gw1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pLK-KQ-QfT" userLabel="First Responder" sceneMemberID="firstResponder"/>

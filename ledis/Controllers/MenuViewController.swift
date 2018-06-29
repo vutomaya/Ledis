@@ -11,14 +11,17 @@ import UIKit
 class MenuViewController: UIViewController {
 
   
-    @IBOutlet var ButtonsCollection: [UIButton]!
+    @IBOutlet var buttonsCollection: [UIButton]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        for i in 0..<ButtonsCollection.count {
-        ButtonsCollection[i].layer.borderColor = UIColor.black.cgColor
-        ButtonsCollection[i].layer.borderWidth = 0.25
+        
+        for i in 0..<buttonsCollection.count {
+        buttonsCollection[i].layer.borderColor = UIColor.black.cgColor
+        buttonsCollection[i].layer.borderWidth = 0.25
         }
+        
+    
     }
 override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)

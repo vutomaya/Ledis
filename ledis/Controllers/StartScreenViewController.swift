@@ -10,13 +10,13 @@ import UIKit
 
 class StartScreenViewController: UIViewController {
     
-    @IBOutlet weak var PlayAsGuestBtn: UIButton!
+    @IBOutlet weak var playAsGuestButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        PlayAsGuestBtn.layer.borderColor = UIColor.black.cgColor
+        playAsGuestButton.layer.borderColor = UIColor.black.cgColor
         
-        PlayAsGuestBtn.layer.borderWidth = 0.25
+        playAsGuestButton.layer.borderWidth = 0.25
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

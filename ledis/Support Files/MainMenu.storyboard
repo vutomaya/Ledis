@@ -149,11 +149,11 @@
                         <viewLayoutGuide key="safeArea" id="hhT-dt-EW6"/>
                     </view>
                     <connections>
-                        <outletCollection property="ButtonsCollection" destination="brj-yi-hA9" collectionClass="NSMutableArray" id="Ig2-l5-Gm1"/>
-                        <outletCollection property="ButtonsCollection" destination="Xan-uu-ggE" collectionClass="NSMutableArray" id="Qy9-rb-ZeM"/>
-                        <outletCollection property="ButtonsCollection" destination="leP-lC-GXR" collectionClass="NSMutableArray" id="BTr-KA-DMF"/>
-                        <outletCollection property="ButtonsCollection" destination="kxT-zq-IQe" collectionClass="NSMutableArray" id="H29-C5-phV"/>
-                        <outletCollection property="ButtonsCollection" destination="bQe-0l-4nj" collectionClass="NSMutableArray" id="GtN-fy-Nv8"/>
+                        <outletCollection property="buttonsCollection" destination="Xan-uu-ggE" collectionClass="NSMutableArray" id="Fzn-9f-Pb8"/>
+                        <outletCollection property="buttonsCollection" destination="brj-yi-hA9" collectionClass="NSMutableArray" id="JDC-q4-vbg"/>
+                        <outletCollection property="buttonsCollection" destination="bQe-0l-4nj" collectionClass="NSMutableArray" id="xKJ-7N-eG9"/>
+                        <outletCollection property="buttonsCollection" destination="leP-lC-GXR" collectionClass="NSMutableArray" id="A2G-i7-o6s"/>
+                        <outletCollection property="buttonsCollection" destination="kxT-zq-IQe" collectionClass="NSMutableArray" id="9V2-d5-nNL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bBe-MZ-eaG" userLabel="First Responder" sceneMemberID="firstResponder"/>
