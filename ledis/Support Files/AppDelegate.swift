@@ -17,32 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
-        UINavigationBar.appearance().barTintColor = UIColor.blue
-        UINavigationBar.appearance().tintColor = UIColor.white
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+        UINavigationBar.appearance().barTintColor = StyleManager.Colors.navigationBarBarTint
+        UINavigationBar.appearance().tintColor = StyleManager.Colors.navigationBarTint
+        UINavigationBar.appearance().titleTextAttributes = StyleManager.Colors.navigationBarTitleTextAttributes
         return true
     }
-
-    func applicationWillResignActive(_ application: UIApplication) {
-    
-    }
-
-    func applicationDidEnterBackground(_ application: UIApplication) {
-   
-    }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-   
-    }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-       
-    }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-       
-    }
-
-
 }
 

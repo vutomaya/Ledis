@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		151BBEDF20E4083E003DA243 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151BBEDE20E4083E003DA243 /* CustomButton.swift */; };
+		151CACC320E7DEA200AA5B9D /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151CACC220E7DEA200AA5B9D /* StyleManager.swift */; };
+		151CACC520E7FC6F00AA5B9D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151CACC420E7FC6F00AA5B9D /* CustomTextField.swift */; };
 		1535B1C820E3E6D700B954EE /* Autorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1535B1C720E3E6D700B954EE /* Autorization.storyboard */; };
 		1535B1CC20E3EFF000B954EE /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1535B1CB20E3EFF000B954EE /* MainMenu.storyboard */; };
 		1535B1CE20E3F96C00B954EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1535B1CD20E3F96B00B954EE /* GoogleService-Info.plist */; };
 		15CE876C2097739B009FA0BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE876B2097739B009FA0BE /* AppDelegate.swift */; };
-		15CE876E2097739B009FA0BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE876D2097739B009FA0BE /* ViewController.swift */; };
 		15CE87712097739B009FA0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CE876F2097739B009FA0BE /* Main.storyboard */; };
 		15CE87732097739B009FA0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CE87722097739B009FA0BE /* Assets.xcassets */; };
 		15CE87762097739B009FA0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CE87742097739B009FA0BE /* LaunchScreen.storyboard */; };
@@ -37,7 +38,7 @@
 		15CE87AD2098B6CF009FA0BE /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15CE879B2098B6CF009FA0BE /* Roboto-Medium.ttf */; };
 		15CE87AE2098B6CF009FA0BE /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15CE879C2098B6CF009FA0BE /* RobotoCondensed-BoldItalic.ttf */; };
 		15EAF98520A8670600D7EB62 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EAF98420A8670600D7EB62 /* StartScreenViewController.swift */; };
-		15EAF98720A869F000D7EB62 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EAF98620A869F000D7EB62 /* LogInViewController.swift */; };
+		15EAF98720A869F000D7EB62 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EAF98620A869F000D7EB62 /* LoginViewController.swift */; };
 		15EAF98920A88BC400D7EB62 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EAF98820A88BC400D7EB62 /* SignUpViewController.swift */; };
 		15EAF98C20A89BDB00D7EB62 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EAF98B20A89BDB00D7EB62 /* MenuViewController.swift */; };
 		BA01BEB54E5BC8E96A51C9FF /* Pods_ledis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB6C2F2801E9C53A8840FA /* Pods_ledis.framework */; };
@@ -45,12 +46,13 @@
 
 /* Begin PBXFileReference section */
 		151BBEDE20E4083E003DA243 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		151CACC220E7DEA200AA5B9D /* StyleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleManager.swift; sourceTree = "<group>"; };
+		151CACC420E7FC6F00AA5B9D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		1535B1C720E3E6D700B954EE /* Autorization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Autorization.storyboard; sourceTree = "<group>"; };
 		1535B1CB20E3EFF000B954EE /* MainMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenu.storyboard; sourceTree = "<group>"; };
 		1535B1CD20E3F96B00B954EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		15CE87682097739B009FA0BE /* ledis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ledis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CE876B2097739B009FA0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15CE876D2097739B009FA0BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15CE87702097739B009FA0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15CE87722097739B009FA0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15CE87752097739B009FA0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,7 +78,7 @@
 		15CE879B2098B6CF009FA0BE /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../../Downloads/roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		15CE879C2098B6CF009FA0BE /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoCondensed-BoldItalic.ttf"; path = "../../../../../Downloads/roboto/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
 		15EAF98420A8670600D7EB62 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
-		15EAF98620A869F000D7EB62 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		15EAF98620A869F000D7EB62 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		15EAF98820A88BC400D7EB62 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		15EAF98B20A89BDB00D7EB62 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		99BB2419C438E1B978E1E6B5 /* Pods-ledis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ledis.release.xcconfig"; path = "Pods/Target Support Files/Pods-ledis/Pods-ledis.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,9 +147,8 @@
 		15CE877E20977F0D009FA0BE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				15CE876D2097739B009FA0BE /* ViewController.swift */,
 				15EAF98420A8670600D7EB62 /* StartScreenViewController.swift */,
-				15EAF98620A869F000D7EB62 /* LogInViewController.swift */,
+				15EAF98620A869F000D7EB62 /* LoginViewController.swift */,
 				15EAF98820A88BC400D7EB62 /* SignUpViewController.swift */,
 				15EAF98B20A89BDB00D7EB62 /* MenuViewController.swift */,
 			);
@@ -158,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				151BBEDE20E4083E003DA243 /* CustomButton.swift */,
+				151CACC220E7DEA200AA5B9D /* StyleManager.swift */,
+				151CACC420E7FC6F00AA5B9D /* CustomTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -376,13 +379,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15CE876E2097739B009FA0BE /* ViewController.swift in Sources */,
 				15EAF98920A88BC400D7EB62 /* SignUpViewController.swift in Sources */,
 				151BBEDF20E4083E003DA243 /* CustomButton.swift in Sources */,
 				15CE878720989D8D009FA0BE /* Extensions.swift in Sources */,
-				15EAF98720A869F000D7EB62 /* LogInViewController.swift in Sources */,
+				15EAF98720A869F000D7EB62 /* LoginViewController.swift in Sources */,
+				151CACC520E7FC6F00AA5B9D /* CustomTextField.swift in Sources */,
 				15CE87892098A850009FA0BE /* GradientView.swift in Sources */,
 				15CE876C2097739B009FA0BE /* AppDelegate.swift in Sources */,
+				151CACC320E7DEA200AA5B9D /* StyleManager.swift in Sources */,
 				15EAF98520A8670600D7EB62 /* StartScreenViewController.swift in Sources */,
 				15EAF98C20A89BDB00D7EB62 /* MenuViewController.swift in Sources */,
 			);

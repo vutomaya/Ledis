@@ -6,7 +6,6 @@
 //  Copyright © 2018 Maya Vu. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 extension UIColor {

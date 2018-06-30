@@ -26,5 +26,4 @@ class StartScreenViewController: UIViewController {
         super.viewDidDisappear(animated)
         navigationController?.setNavigationBarHidden(false, animated: false)
     }
-
 }
